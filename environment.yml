@@ -1,0 +1,17 @@
+name: mdo_quadrotor
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11.1
+  - numpy=1.25.0
+  - matplotlib
+  - pyoptsparse=2.9.2   # includes IPOPT
+  - pip
+  - pip:
+    - openmdao==3.26.0
+    - dymos==1.7.0
+    - juliacall==0.9.13
+    - juliapkg==0.1.10
+    - omjlcomps
+    - autograd
