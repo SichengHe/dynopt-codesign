@@ -1,7 +1,7 @@
 # import numpy as np
 import scipy as sp
-import residual
-import residual_reduced
+from . import residual
+from . import residual_reduced
 from scipy.optimize import fsolve
 import autograd.numpy as np
 from autograd import jacobian, grad, elementwise_grad

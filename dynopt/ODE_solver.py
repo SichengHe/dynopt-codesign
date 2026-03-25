@@ -1,6 +1,6 @@
 import autograd.numpy as np
 from autograd import jacobian, grad, elementwise_grad
-import residual_cl
+from . import residual_cl
 import copy
 import time
 
@@ -174,7 +174,7 @@ class ODE_solver(object):
 
 if __name__ == "__main__":
 
-    import residual
+    from dynopt import residual
     import matplotlib.pyplot as plt
 
     from functools import *

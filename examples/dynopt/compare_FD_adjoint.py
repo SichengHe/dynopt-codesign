@@ -17,7 +17,7 @@ import copy
 import matplotlib.pyplot as plt
 from cycler import cycler
 
-import CL
+from dynopt import CL
 # from quadrotor_settings import res_funcs_generator, funcs_generator, QuadrotorSteadyHoverWrapper
 from pyoptsparse import OPT, Optimization
 

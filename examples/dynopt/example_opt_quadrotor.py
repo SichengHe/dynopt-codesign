@@ -1,7 +1,7 @@
 # Closed loop system
 import numpy as np
 import scipy.interpolate
-import CL
+from dynopt import CL
 import matplotlib.pyplot as plt
 from quadrotor_settings import res_funcs_generator, funcs_generator, QuadrotorSteadyHoverWrapper
 

@@ -1,6 +1,6 @@
 # Closed loop system
 import numpy as np
-import CL
+from dynopt import CL
 import matplotlib.pyplot as plt
 # from quadrotor_settings_debug_AD import res_funcs_generator, funcs_generator   # dummy dynamics model; only for debugging
 from quadrotor_settings import res_funcs_generator, funcs_generator   # original OpenMDAO model

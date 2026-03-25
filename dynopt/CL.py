@@ -4,12 +4,12 @@ from autograd import jacobian, grad, elementwise_grad
 import scipy.linalg
 import copy
 from functools import partial
-import residual
-import residual_reduced
-import residual_cl
-import equilibrium
-import LQR
-import ODE_solver
+from . import residual
+from . import residual_reduced
+from . import residual_cl
+from . import equilibrium
+from . import LQR
+from . import ODE_solver
 import copy
 import cProfile
 import time

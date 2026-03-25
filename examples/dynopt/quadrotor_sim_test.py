@@ -21,7 +21,7 @@ sys.path.append(os.path.join(os.path.dirname(__file__), '../dymos_quadrotor'))
 
 import numpy as np
 import matplotlib.pyplot as plt
-import CL
+from dynopt import CL
 from quadrotor_settings import res_funcs_generator, funcs_generator
 
 # ============================================================

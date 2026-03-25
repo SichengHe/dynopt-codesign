@@ -1,6 +1,6 @@
 import autograd.numpy as np
 from autograd import jacobian, grad, elementwise_grad
-import residual
+from . import residual
 
 """
     Closed loop residual.

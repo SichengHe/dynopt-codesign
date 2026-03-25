@@ -1,9 +1,8 @@
 import numpy as np
 import openmdao.api as om
 
-import residual
-import residual_reduced
-import CL
+from dynopt import residual, residual_reduced
+from dynopt import CL
 
 from quadrotor_openmdao_setup import setup_quadrotor_openmdao
 

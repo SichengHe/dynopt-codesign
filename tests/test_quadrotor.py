@@ -1,12 +1,13 @@
 import os
 import sys
-sys.path.insert(0, os.path.dirname(__file__) + '/../')  # add dynOpt/ to path
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'examples', 'dynopt'))
 
 import unittest
 import autograd.numpy as np
 import numpy.testing as nptest
 
-import CL
+from dynopt import CL
 from quadrotor_settings import res_funcs_generator, funcs_generator
 
 

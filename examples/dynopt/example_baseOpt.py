@@ -4,9 +4,8 @@ from autograd import jacobian, grad, elementwise_grad
 import scipy.linalg
 import copy
 from functools import partial
-import residual
-import residual_reduced
-import CL
+from dynopt import residual, residual_reduced
+from dynopt import CL
 import matplotlib.pyplot as plt
 from cart_setting import res_funcs_generator, funcs_generator
 

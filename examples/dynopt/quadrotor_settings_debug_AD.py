@@ -6,9 +6,8 @@ It uses AD for 1st and 2nd order derivatives, like cart_setting.py does.
 import autograd.numpy as np
 from autograd import jacobian, grad, elementwise_grad
 
-import residual
-import residual_reduced
-import CL
+from dynopt import residual, residual_reduced
+from dynopt import CL
 
 # import quadrotormodels
 # from quadrotormodels import VTOLDynamicsGroup_MultiRotor_3DOF
