@@ -1,7 +1,7 @@
 import os
 import sys
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'examples', 'dynopt'))
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'examples', 'dynopt', 'cartpole'))
 
 import unittest
 import autograd.numpy as np

@@ -247,7 +247,7 @@ if __name__ == '__main__':
 
     # load data
     import pickle
-    with open('/Users/shugo/rsrc/UAV_traj_design/init_guess_LC_BEMT.pkl', mode='rb') as file:
+    with open('init_guess_LC_BEMT.pkl', mode='rb') as file:  # TODO: update path to your local pkl file
         res = pickle.load(file)
         init_guess_climb = res['climb']
         init_guess_cruise = res['cruise']

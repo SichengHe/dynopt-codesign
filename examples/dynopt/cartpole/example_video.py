@@ -9,7 +9,7 @@ from scipy import integrate
 import matplotlib.pyplot as plt
 import niceplots
 from cart_setting import r_plt, prpw_plt, prpx_plt, G_func, dtraceG_dx, trace_dprpw_plt_dx_T_prpw_bar, pG_func_px
-from CL import CL
+from dynopt import CL
 import plot_cart
 
 def generate_video(x_design_dict, y0, video_name):

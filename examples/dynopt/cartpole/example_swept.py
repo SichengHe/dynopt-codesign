@@ -100,7 +100,7 @@ if is_training:
 
 else:
     # Optimization path
-    filename_hist = "code\dynOpt\opt_hist.dat"
+    filename_hist = "opt_hist.dat"
     x_path = np.loadtxt(filename_hist)
     # Optimal solution
     x_opt = [1.0, 2.5]
@@ -116,7 +116,7 @@ else:
     # --------------
 
     # Countour plot
-    obj_arr = np.loadtxt("code\dynOpt\example_swept_obj_arr.txt") / 100
+    obj_arr = np.loadtxt("example_swept_obj_arr.txt") / 100
     levels0 = np.arange(np.min(obj_arr), np.max(obj_arr), (np.max(obj_arr) - np.min(obj_arr)) / 25.0)
     levels1 = [25, 50, 75, 100, 125, 150, 175, 200,225, 250,275, 300,330]
     CP0 = ax.contour(X1_arr, X2_arr, obj_arr.T, levels1, extend="both", linewidths=2, cmap="coolwarm", zorder=0)
